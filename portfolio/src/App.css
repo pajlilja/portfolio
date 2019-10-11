@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.About {
+  background: rgba(0, 0, 0, 0.2);
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top:50px;
+  padding-bottom: 50px;
+
+}
+
+.MainWrapper {
+  margin-top: 50px;
+}
+
+.Projects {
+  height: 1000px;
+  padding-top:50px;
+}
+
+.Contact {
+  height: 200px;
+  padding-top: 50px;
+  margin-top: 50px;
+  padding-bottom: 50px;
+
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.projectsGrid {
+  display: grid;
+  padding-left: 200px;
+  padding-right: 200px;
+
+  grid-template-rows: auto auto auto;
+}
+
+.projectsGridRow {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 20px;
+
+}
+
+.watchitSlider > a {
+  background-color: black;
+  width: 4%;
+}
+
+.watchitSlider > a:active {
+  background-color: black;
+  width: 4%;
+  opacity: 0.5;
+}
+
+.watchitSlider > a:focus {
+  background-color: black;
+  width: 4%;
+  opacity: 0.5;
+}
+
+.watchitSlider > a:hover {
+  background-color: black;
+  width: 4%;
+  opacity: 0.5;
+}
+
+.videoWraper {
+  position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWraper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.BadgeWrapper {
+  display: flex;
+  padding-top: 10px;
+}
+
+.BadgeWrapper > div {
+  padding-right: 10px;
+}
