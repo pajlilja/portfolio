@@ -22,6 +22,10 @@ import Quint2 from './images/quint/game.png';
 import Quint3 from './images/quint/game2.png';
 import Quint4 from './images/quint/end.png';
 
+import VRStart from './images/VR/front.png';
+import VRStart2 from './images/VR/front2.png';
+
+
 import VR from './images/VR/start3.png';
 import VR2 from './images/VR/spider2.png';
 import VR3 from './images/VR/orc2.png';
@@ -40,7 +44,7 @@ function App() {
       <div className="MainWrapper">
         <div className="Carousel">
         <Carousel wrap={true} indicators={false} controls={false}>
-          <Carousel.Item>
+        <Carousel.Item>
             <img
               className="d-block w-100"
               src={Particle}
@@ -50,22 +54,36 @@ function App() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={EWQ}
-              alt="second slide"
+              src={VRStart}
+              alt="Second slide"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={watchit}
+              src={VRStart2}
               alt="Third slide"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={Particle2}
+              src={EWQ}
               alt="Fourth slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={watchit}
+              alt="Fifth slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={Particle2}
+              alt="Sixth slide"
             />
           </Carousel.Item>
         </Carousel>
