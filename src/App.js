@@ -22,7 +22,11 @@ import Quint2 from './images/quint/game.png';
 import Quint3 from './images/quint/game2.png';
 import Quint4 from './images/quint/end.png';
 
-
+import VR from './images/VR/start3.png';
+import VR2 from './images/VR/spider2.png';
+import VR3 from './images/VR/orc2.png';
+import VR4 from './images/VR/mobile3.png';
+import VR5 from './images/VR/lights2.png';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -105,8 +109,56 @@ function App() {
               </div>
               <div>
                 <h4>Beta Thunder</h4>
-
-                VR GAME HERE
+                <Carousel wrap={true} indicators={false} controls={true} className="watchitSlider">
+                  <Carousel.Item >
+                    <img
+                      className="d-block w-100"
+                      src={VR}
+                      alt="First slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={VR2}
+                      alt="second slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={VR3}
+                      alt="Third slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={VR4}
+                      alt="fourth slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={VR5}
+                      alt="fifth slide"
+                    />
+                  </Carousel.Item>
+                </Carousel>
+                <div className="BadgeWrapper">
+                  <div><Badge variant="danger">Unity</Badge></div>
+                  <div><Badge variant="success">C#</Badge></div>
+                  <div><Badge variant="primary">VR</Badge></div>
+                  <div><Badge variant="warning">Mobile</Badge></div>
+                </div>
+                <p>
+                  This game offers a new type of competitive gaming. This is an asymmetric game with one VR part and one mobile part.
+                  One player uses a VR headset and controllers
+                  to move around in a dungeon and trying to survive the enemies and traps that exist. While one player
+                  is playing in VR the other is using a mobile phone or a tablet to place enemies in the map and activating traps
+                  to try and stop the VR player.
+                </p>
               </div>
             </div>
             <div className="projectsGridRow">

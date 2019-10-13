@@ -5,24 +5,24 @@ import Topbar from './components/topbar/topbar';
 import EWQ from './images/EvilWillConquer/slider.png'
 import Particle from './images/particlesystem/part2.png';
 import Particle2 from './images/particlesystem/front.png';
-
 import watchIt1 from './images/watchit/start.png';
 import watchIt2 from './images/watchit/detailpage3.png';
 import watchIt3 from './images/watchit/episode.png';
 import watchIt4 from './images/watchit/plan2.png';
 import watchit from './images/watchit/front.png';
-
 import EWQ1 from './images/EvilWillConquer/idle2.png';
 import EWQ2 from './images/EvilWillConquer/attack2.png';
 import EWQ3 from './images/EvilWillConquer/chase3.png';
 import EWQ4 from './images/EvilWillConquer/deat.png';
-
 import Quint from './images/quint/start.png';
 import Quint2 from './images/quint/game.png';
 import Quint3 from './images/quint/game2.png';
 import Quint4 from './images/quint/end.png';
-
-
+import VR from './images/VR/start.png';
+import VR2 from './images/VR/spider.png';
+import VR3 from './images/VR/orc.png';
+import VR4 from './images/VR/mobile2.png';
+import VR5 from './images/VR/lights.png';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -46,22 +46,36 @@ function App() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={EWQ}
-              alt="second slide"
+              src={VR}
+              alt="Second slide"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={watchit}
+              src={VR4}
               alt="Third slide"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={Particle2}
+              src={EWQ}
               alt="Fourth slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={watchit}
+              alt="Fifth slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={Particle2}
+              alt="Sixth slide"
             />
           </Carousel.Item>
         </Carousel>
@@ -105,14 +119,61 @@ function App() {
               </div>
               <div>
                 <h4>Beta Thunder</h4>
-
-                VR GAME HERE
+                <Carousel wrap={true} indicators={false} controls={true} className="watchitSlider">
+                  <Carousel.Item >
+                    <img
+                      className="d-block w-100"
+                      src={VR}
+                      alt="First slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={VR2}
+                      alt="second slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={VR3}
+                      alt="Third slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={VR4}
+                      alt="fourth slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={VR5}
+                      alt="fifth slide"
+                    />
+                  </Carousel.Item>
+                </Carousel>
+                <div className="BadgeWrapper">
+                  <div><Badge variant="danger">Unity</Badge></div>
+                  <div><Badge variant="success">C#</Badge></div>
+                  <div><Badge variant="primary">VR</Badge></div>
+                  <div><Badge variant="warning">Mobile</Badge></div>
+                </div>
+                <p>
+                  This game offers a new type of competitive gaming. This is an asymmetric game with one VR part and one mobile part.
+                  One player uses a VR headset and controllers
+                  to move around in a dungeon and trying to survive the enemies and traps that exist. While one player
+                  is playing in VR the other is using a mobile phone or a tablet to place enemies in the map and activating traps
+                  to try and stop the VR player.
+                </p>
               </div>
             </div>
             <div className="projectsGridRow">
               <div>
                 <h4>Evil Will Conquer</h4>
-
                 <Carousel wrap={true} indicators={false} controls={true} className="watchitSlider">
                   <Carousel.Item >
                     <img
