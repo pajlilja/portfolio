@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9985dc45cb78a713c38f3128a458acb1",
+    "revision": "3b5b53449f5157316ac6919a908fa444",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "b31f04ea3008f86a7d70",
+    "revision": "dc0102909f2317daccc8",
     "url": "/portfolio/static/css/2.0624914a.chunk.css"
   },
   {
-    "revision": "149c106bdcb6d0fbb120",
-    "url": "/portfolio/static/css/main.347dd642.chunk.css"
+    "revision": "bb08df41fc2db57e5cd7",
+    "url": "/portfolio/static/css/main.f29db49b.chunk.css"
   },
   {
-    "revision": "b31f04ea3008f86a7d70",
-    "url": "/portfolio/static/js/2.6420a92d.chunk.js"
+    "revision": "dc0102909f2317daccc8",
+    "url": "/portfolio/static/js/2.4f1140eb.chunk.js"
   },
   {
-    "revision": "149c106bdcb6d0fbb120",
-    "url": "/portfolio/static/js/main.291f42e0.chunk.js"
+    "revision": "bb08df41fc2db57e5cd7",
+    "url": "/portfolio/static/js/main.2ec087b6.chunk.js"
   },
   {
     "revision": "791f997dc0acbb20fb93",
@@ -72,6 +72,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/idle2.e54e9039.png"
   },
   {
+    "revision": "54aa2e628d9ef2b89b583601b0afbbf0",
+    "url": "/portfolio/static/media/lights2.54aa2e62.png"
+  },
+  {
+    "revision": "2e4a08920e2f0d164df5f74464141d9f",
+    "url": "/portfolio/static/media/mobile3.2e4a0892.png"
+  },
+  {
+    "revision": "cffa478250088dc6d2294982b6028092",
+    "url": "/portfolio/static/media/orc2.cffa4782.png"
+  },
+  {
     "revision": "68a5026869e82a2db9c1c1cb1d43912a",
     "url": "/portfolio/static/media/part2.68a50268.png"
   },
@@ -84,11 +96,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/slider.c69bc041.png"
   },
   {
+    "revision": "cf0b87cf64182f1613e979c4e954534d",
+    "url": "/portfolio/static/media/spider2.cf0b87cf.png"
+  },
+  {
     "revision": "2799126d7d22c2660aa5516f0259cf62",
     "url": "/portfolio/static/media/start.2799126d.png"
   },
   {
     "revision": "c479c555f8f620b108c656ab36bc79a2",
     "url": "/portfolio/static/media/start.c479c555.png"
+  },
+  {
+    "revision": "edf90260cf992fd08138cabf494079ec",
+    "url": "/portfolio/static/media/start3.edf90260.png"
   }
 ]);

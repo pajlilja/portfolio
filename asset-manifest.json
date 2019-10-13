@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.347dd642.chunk.css",
-    "main.js": "/portfolio/static/js/main.291f42e0.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.291f42e0.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.f29db49b.chunk.css",
+    "main.js": "/portfolio/static/js/main.2ec087b6.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.2ec087b6.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.021c856b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.021c856b.js.map",
     "static/css/2.0624914a.chunk.css": "/portfolio/static/css/2.0624914a.chunk.css",
-    "static/js/2.6420a92d.chunk.js": "/portfolio/static/js/2.6420a92d.chunk.js",
-    "static/js/2.6420a92d.chunk.js.map": "/portfolio/static/js/2.6420a92d.chunk.js.map",
+    "static/js/2.4f1140eb.chunk.js": "/portfolio/static/js/2.4f1140eb.chunk.js",
+    "static/js/2.4f1140eb.chunk.js.map": "/portfolio/static/js/2.4f1140eb.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.f548ade4dd1e30d6eb8b7f272fac546b.js": "/portfolio/precache-manifest.f548ade4dd1e30d6eb8b7f272fac546b.js",
+    "precache-manifest.7ec77e5accbda606ba46db45adef7963.js": "/portfolio/precache-manifest.7ec77e5accbda606ba46db45adef7963.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.0624914a.chunk.css.map": "/portfolio/static/css/2.0624914a.chunk.css.map",
-    "static/css/main.347dd642.chunk.css.map": "/portfolio/static/css/main.347dd642.chunk.css.map",
+    "static/css/main.f29db49b.chunk.css.map": "/portfolio/static/css/main.f29db49b.chunk.css.map",
     "static/media/CV.pdf": "/portfolio/static/media/CV.f59ff70a.pdf",
     "static/media/attack2.png": "/portfolio/static/media/attack2.d06e72de.png",
     "static/media/chase3.png": "/portfolio/static/media/chase3.1296494d.png",
@@ -24,16 +24,21 @@
     "static/media/game.png": "/portfolio/static/media/game.fc8e4188.png",
     "static/media/game2.png": "/portfolio/static/media/game2.131670a8.png",
     "static/media/idle2.png": "/portfolio/static/media/idle2.e54e9039.png",
+    "static/media/lights2.png": "/portfolio/static/media/lights2.54aa2e62.png",
+    "static/media/mobile3.png": "/portfolio/static/media/mobile3.2e4a0892.png",
+    "static/media/orc2.png": "/portfolio/static/media/orc2.cffa4782.png",
     "static/media/part2.png": "/portfolio/static/media/part2.68a50268.png",
     "static/media/plan2.png": "/portfolio/static/media/plan2.ce46c47f.png",
     "static/media/slider.png": "/portfolio/static/media/slider.c69bc041.png",
-    "static/media/start.png": "/portfolio/static/media/start.c479c555.png"
+    "static/media/spider2.png": "/portfolio/static/media/spider2.cf0b87cf.png",
+    "static/media/start.png": "/portfolio/static/media/start.c479c555.png",
+    "static/media/start3.png": "/portfolio/static/media/start3.edf90260.png"
   },
   "entrypoints": [
     "static/js/runtime-main.021c856b.js",
     "static/css/2.0624914a.chunk.css",
-    "static/js/2.6420a92d.chunk.js",
-    "static/css/main.347dd642.chunk.css",
-    "static/js/main.291f42e0.chunk.js"
+    "static/js/2.4f1140eb.chunk.js",
+    "static/css/main.f29db49b.chunk.css",
+    "static/js/main.2ec087b6.chunk.js"
   ]
 }
