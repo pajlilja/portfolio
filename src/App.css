@@ -132,11 +132,11 @@
     display: initial;
   }
   .projectsGrid {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   .About {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }

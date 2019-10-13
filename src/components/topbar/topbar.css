@@ -73,3 +73,69 @@ a > i{
     font-size: 12px;
     padding-right: 5px;
 }
+
+@media only screen and (min-width: 901px) {
+    .linkWrapper {
+        display: flex;
+    }
+    .collapsedWrapper {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .linkWrapper {
+        display: none;
+    }
+    .collapsedWrapper {
+        display: initial;
+    }
+    .wrapper > h1 {
+        font-size: 30px;
+    }
+}
+
+.dropDownMenu {
+    position: fixed;
+    top: 50px;
+    left: 0px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.dropdownIcon {
+    cursor: pointer;
+}
+
+.dropDownMenu > div {
+    height: 50px;
+    width: 100%;
+    min-width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+}
+
+.dropDownMenu > div > a {
+    height: 50px;
+    width: 100%;
+    min-width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+    color: white;
+    text-decoration: none;
+}
+
+.dropDownMenu > div:hover {
+    background: #7b2526;
+    cursor: pointer;
+}

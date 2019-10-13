@@ -148,7 +148,7 @@ function App() {
                   <div><Badge variant="success">C#</Badge></div>
                 </div>
                 <p>
-                  This is a 2D platformer game built in Unity. I focues mainly on creating good code and using abstract classes
+                  This is a 2D platformer game built in Unity. I focused mainly on creating good code and using abstract classes
                   and inheritance to have enemies inherit from the same class etc. Unfortunately, the game never got finished
                   but all the classes, controls such as movement, attack, jump, AI, dash, death, etc was implemented. The only thing missing was
                   the actual levels for the game.
@@ -239,11 +239,11 @@ function App() {
                   <div><Badge variant="success">SFML</Badge></div>
                 </div>
                 <p>
-                This was the very first game I created and I wanted to include it to show my progression
-                during the short time I have been developing games. Even though this game might not loo
-                much to the world, the code has one nice implementation. No matter how large the grid gets
-                or how many in a row is needed to win, the lookup for a win condition is always in constant time(O(1)).
-                The trade-off is, of course, some higher space complexity.
+                  This was the very first game I created and I wanted to include it to show my progression
+                  during the short time I have been developing games. Even though this game might not look
+                  much to the world, the code has one nice implementation. No matter how large the grid gets
+                  or how many in a row is needed to win, the lookup for a win condition is always in constant time(O(1)).
+                  The trade-off is, of course, some higher space complexity.
                 </p>
               </div>
             </div>
